@@ -16,3 +16,7 @@ First off I obviously need a machine to run this on, the machine of my choice is
 <img width="574" height="355" alt="image" src="https://github.com/user-attachments/assets/9c525f99-7cfd-47b3-aedd-fbef70357e3b" />
 
 These are the requirements for the VM, I'll be using the minimal recommendations for now, I found these on the Greenbone community documentation which will be linked at the end of this file.
+
+So after logging into proxmox I clicked on create VM and setup my VM to be on my specified pre-configured network and configured the correct requirements to insure the software will function.
+
+<img width="734" height="550" alt="image" src="https://github.com/user-attachments/assets/67e1d006-d24f-4816-9f00-a347a0d37d84" />
