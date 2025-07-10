@@ -82,6 +82,17 @@ All thats it for the installation time to connect to the web page.
 
 For loading the scanner on my web I will using my browser on my personal computer rather then Kali to make it a bit more enjoyable and quicker since the VM is quite slow.
 
+So just a quick FYI the default port is **9392**
+
+<img width="945" height="964" alt="image" src="https://github.com/user-attachments/assets/e481c441-2ef3-436e-ad36-8ee7d3e06fb2" />
+
+So now we are successfully logged in, and on the dashboard,
+
+<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/e67d3837-870e-4e40-932a-52518fa01e94" />
+
+So after logging in, I am going to head over to the Agents tab on the left side bar and add a new host, OpenVAS doesn't have direct agents you can download onto endpoints like tenable but offers more of a credential targetted system where its going to SSH, RDP etc onto the machine and do a vulnerabilitly assessment.
+
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/d9cab72d-f640-4b07-8d87-5360ae323356" />
 
 ## Sources
 
