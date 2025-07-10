@@ -94,6 +94,18 @@ So after logging in, I am going to head over to the Agents tab on the left side 
 
 <img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/d9cab72d-f640-4b07-8d87-5360ae323356" />
 
+So now we want to run a scan; head over to the Scans tab then task and select + paper icon in the top left; then new task.
+
+<img width="1915" height="926" alt="image" src="https://github.com/user-attachments/assets/5bdbabec-254b-403e-a384-c227f88c0c06" />
+
+Here is where you name your task, and configure it. Make sure to set a target, & alerts / schedule if wanted/needed. 
+If you scroll down you get a few more configuration options from stuff like scanner options and the order of which host you want to target,
+For now I am going to leave all the defaults.
+
+<img width="804" height="851" alt="image" src="https://github.com/user-attachments/assets/80ac01bc-38a8-455f-88b0-62cf6faee2f5" />
+<img width="769" height="183" alt="image" src="https://github.com/user-attachments/assets/a8e65d4f-4ded-465a-87b7-6e3941db3000" />
+
+
 ## Sources
 
 - [Kali Linux Official Docs](https://www.kali.org/docs/)
