@@ -70,6 +70,19 @@ Im going to solve this by running the fix it provided <pre>greenbone-feed-sync</
 
 <img width="678" height="544" alt="image" src="https://github.com/user-attachments/assets/42f47667-ce68-48f2-a618-7b10b78c8aaa" />
 
+So after the check as said our instllation is OK we can proceed.
+
+Now since our installation is complete we have to start the service / application by running
+
+<pre>gvm-start</pre>
+
+All thats it for the installation time to connect to the web page.
+
+## Scan setup/execution
+
+For loading the scanner on my web I will using my browser on my personal computer rather then Kali to make it a bit more enjoyable and quicker since the VM is quite slow.
+
+
 ## Sources
 
 - [Kali Linux Official Docs](https://www.kali.org/docs/)
