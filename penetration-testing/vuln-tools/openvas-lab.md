@@ -65,6 +65,10 @@ So now the setup has been complete and the terminal has spat out the password fo
 
 <img width="724" height="562" alt="image" src="https://github.com/user-attachments/assets/ceb8587e-b6cb-4138-89eb-a4a1fc7707e8" />
 
+So I ran the command to verify and the step 4 returned a error that the download SCAP data did not complete / work.
+Im going to solve this by running the fix it provided <pre>greenbone-feed-sync</pre>
+
+<img width="678" height="544" alt="image" src="https://github.com/user-attachments/assets/42f47667-ce68-48f2-a618-7b10b78c8aaa" />
 
 ## Sources
 
