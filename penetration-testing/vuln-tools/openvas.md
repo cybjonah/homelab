@@ -42,3 +42,16 @@ After I need to update and upgrade my systems packages to ensure everythings up 
 <pre>sudo apt update && apt upgrade -y</pre>
 
 <img width="1720" height="1077" alt="image" src="https://github.com/user-attachments/assets/f6c00c63-3dfa-40a9-99f4-811c66e0f091" />
+
+*So like I mentioned before I will be following the installation guide for Kali Linux off the Greenbone community installation guide, and as promised it will be linked along side all the other resources I used below.*
+
+After upgrading and updating our packages we can begin with the install, the first command we need to run is the install for the Greenbone community eddition
+
+<pre>sudo apt install gvm -y</pre>
+
+<img width="700" height="555" alt="image" src="https://github.com/user-attachments/assets/e4eae908-c68e-4cbe-9517-9171684d03de" />
+
+After wards we must install OpenVAS its self
+
+<pre>sudo apt install openvas -y</pre>
+
