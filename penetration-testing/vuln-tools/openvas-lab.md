@@ -5,10 +5,6 @@ Hello, today I'm going to be installing OpenVAS a open sourced vulnerabilitly sc
 **This document will cover:**
   - Installation steps of the OS/Software
   - Inital configuration
-  - Scan setup/execution
-  - Results & analysis
-  - Any troubleshooting / Recommendations
-
 ## Inital Setup
 
 First off I obviously need a machine to run this on, the machine of my choice is going to be *kail linux* version 2025.2.
@@ -77,34 +73,6 @@ Now since our installation is complete we have to start the service / applicatio
 <pre>gvm-start</pre>
 
 All thats it for the installation time to connect to the web page.
-
-## Scan setup/execution
-
-For loading the scanner on my web I will using my browser on my personal computer rather then Kali to make it a bit more enjoyable and quicker since the VM is quite slow.
-
-So just a quick FYI the default port is **9392**
-
-<img width="945" height="964" alt="image" src="https://github.com/user-attachments/assets/e481c441-2ef3-436e-ad36-8ee7d3e06fb2" />
-
-So now we are successfully logged in, and on the dashboard,
-
-<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/e67d3837-870e-4e40-932a-52518fa01e94" />
-
-So after logging in, I am going to head over to the Agents tab on the left side bar and add a new host, OpenVAS doesn't have direct agents you can download onto endpoints like tenable but offers more of a credential targetted system where its going to SSH, RDP etc onto the machine and do a vulnerabilitly assessment.
-
-<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/d9cab72d-f640-4b07-8d87-5360ae323356" />
-
-So now we want to run a scan; head over to the Scans tab then task and select + paper icon in the top left; then new task.
-
-<img width="1915" height="926" alt="image" src="https://github.com/user-attachments/assets/5bdbabec-254b-403e-a384-c227f88c0c06" />
-
-Here is where you name your task, and configure it. Make sure to set a target, & alerts / schedule if wanted/needed. 
-If you scroll down you get a few more configuration options from stuff like scanner options and the order of which host you want to target,
-For now I am going to leave all the defaults.
-
-<img width="804" height="851" alt="image" src="https://github.com/user-attachments/assets/80ac01bc-38a8-455f-88b0-62cf6faee2f5" />
-<img width="769" height="183" alt="image" src="https://github.com/user-attachments/assets/a8e65d4f-4ded-465a-87b7-6e3941db3000" />
-
 
 ## Sources
 
