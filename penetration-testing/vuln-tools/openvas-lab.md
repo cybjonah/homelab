@@ -55,3 +55,13 @@ After wards we must install OpenVAS its self
 
 <pre>sudo apt install openvas -y</pre>
 
+So I will be using the quicker option by doing the automatic configuration script, you can run this by;
+
+<pre>sudo gvm-setup</pre>
+
+<img width="697" height="549" alt="image" src="https://github.com/user-attachments/assets/0fcdc375-410d-438d-b176-90e4b3d4d834" />
+
+## Sources
+
+- [Kali Linux Official Docs](https://www.kali.org/docs/)
+- [OpenVAS Installation Guide](https://greenbone.github.io/docs/latest/22.4/kali/index.html)
