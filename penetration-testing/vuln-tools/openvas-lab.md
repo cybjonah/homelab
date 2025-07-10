@@ -72,7 +72,7 @@ Now since our installation is complete we have to start the service / applicatio
 
 <pre>gvm-start</pre>
 
-All thats it for the installation time to connect to the web page.
+Thats it for the installation time to connect to the web page.
 
 ## Sources
 
