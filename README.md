@@ -15,19 +15,3 @@ My homelab serves as:
 - A place to document findings, failures, and lessons learned along the way
 
 ---
-
-## Core Stack
-
-| Category           | Tools / Services Used                              |
-|--------------------|----------------------------------------------------|
-| **Hypervisor**     | Proxmox VE(https://www.proxmox.com/proxmox-ve)     |
-| **Firewall**| To be determined                                   |
-| **SIEM/EDR**       | To be determined                                   |
-| **SOAR**           | To be determined                                   |
-| **Threat Emulation**| OpenBAS                                           |
-| **Automation**     | Docker, Portainer,                                 |
-| **Monitoring**     |  To be determined                                  |
-| **Data Layer**     | Elasticsearch                                      |
-| **Other Fun**      |  To be determined                                  |
-
----
