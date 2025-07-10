@@ -36,7 +36,7 @@ So the deployment is now done, the machine is now up and running and I will be o
 Firstly I will be opening a command prompt, I need to do this to obviously run the install commands for **OpenVAS** but I still also need to do some maintance items like updating the packeges etc.
 
 First step, I will cd to the /opt directory,
-<pre> ``` cd /opt  ``` </pre>
+<pre>cd /opt</pre>
 
 After I need to update and upgrade my systems packages to ensure everythings up to date before doing the install
-<pre> ``` sudo apt update && apt upgrade -y  ``` </pre>
+<pre>sudo apt update && apt upgrade -y</pre>
