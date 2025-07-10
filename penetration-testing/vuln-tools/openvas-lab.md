@@ -61,6 +61,11 @@ So I will be using the quicker option by doing the automatic configuration scrip
 
 <img width="697" height="549" alt="image" src="https://github.com/user-attachments/assets/0fcdc375-410d-438d-b176-90e4b3d4d834" />
 
+So now the setup has been complete and the terminal has spat out the password for the admin user, remeneber to take note of this else we won't be able to long in. it also tells us we can verify our installation by running the command <pre>gvm-check-setup</pre> to make sure everything is configured correctly.
+
+<img width="724" height="562" alt="image" src="https://github.com/user-attachments/assets/ceb8587e-b6cb-4138-89eb-a4a1fc7707e8" />
+
+
 ## Sources
 
 - [Kali Linux Official Docs](https://www.kali.org/docs/)
