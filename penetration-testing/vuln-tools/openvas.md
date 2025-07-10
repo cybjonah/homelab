@@ -20,3 +20,8 @@ These are the requirements for the VM, I'll be using the minimal recommendations
 So after logging into proxmox I clicked on create VM and setup my VM to be on my specified pre-configured network and configured the correct requirements to insure the software will function.
 
 <img width="734" height="550" alt="image" src="https://github.com/user-attachments/assets/67e1d006-d24f-4816-9f00-a347a0d37d84" />
+
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/596a7b8b-93b9-497c-b3b8-02ef1f5c5ffb" />
+
+Now my machine has been configured and deployed and in the task below I can see the creation of the VM with the VM ID of **100** has been created successfully.
+
