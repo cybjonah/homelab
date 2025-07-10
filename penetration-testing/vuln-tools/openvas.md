@@ -28,3 +28,15 @@ Now my machine has been configured and deployed and in the task below I can see 
 So for now I will be using the built in console in proxmox to access the machine and do the inital installation of the VM but afterwards I may switch over to putty to allow copy / pasting of commands and inputs.
 
 <img width="653" height="565" alt="image" src="https://github.com/user-attachments/assets/9d42348a-360f-4173-b16e-cda8f9facf77" />
+
+So the deployment is now done, the machine is now up and running and I will be onto the inital configuration
+
+## Inital configuration
+
+Firstly I will be opening a command prompt, I need to do this to obviously run the install commands for **OpenVAS** but I still also need to do some maintance items like updating the packeges etc.
+
+First step, I will cd to the /opt directory,
+<pre> ``` cd /opt  ``` </pre>
+
+After I need to update and upgrade my systems packages to ensure everythings up to date before doing the install
+<pre> ``` sudo apt update && apt upgrade -y  ``` </pre>
