@@ -40,3 +40,5 @@ First step, I will cd to the /opt directory,
 
 After I need to update and upgrade my systems packages to ensure everythings up to date before doing the install
 <pre>sudo apt update && apt upgrade -y</pre>
+
+<img width="1720" height="1077" alt="image" src="https://github.com/user-attachments/assets/f6c00c63-3dfa-40a9-99f4-811c66e0f091" />
