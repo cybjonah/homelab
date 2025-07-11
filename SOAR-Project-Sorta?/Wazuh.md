@@ -67,3 +67,8 @@ And now that we have deployed our agent I can go back to the summary tab and I s
 
 <img width="1914" height="582" alt="image" src="https://github.com/user-attachments/assets/6d6325ea-2ec3-47c2-92a8-dc4ed4dfc88a" />
 
+And just to verify now when I go over to Wazuh and the discover tab I can see info coming in from my agent;
+
+<img width="1484" height="499" alt="image" src="https://github.com/user-attachments/assets/78fa1e4c-e16c-4f8e-8c0b-59d7f6fae122" />
+
+So let's move on to the N8N part.
