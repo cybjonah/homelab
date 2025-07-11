@@ -52,3 +52,18 @@ Hopefully down the road I can do a bit of detection engineering and setup a nice
 
 <img width="1914" height="947" alt="image" src="https://github.com/user-attachments/assets/30c4c0fc-80bb-43a2-aa33-a06d9bc64105" />
 
+So pretty much we are finished with our very basic and minial configuration of Wazuh, last thing I need to do to begin testing with automation is deploy a agent on my device (oh lord)
+
+To do this go to the side bar on the left side and select Agent Management and Summary
+
+<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/efa2da6f-c495-4fe7-9791-a43e995bd3c0" />
+
+After select the OS it will be getting deployed to and run the command / file provided.
+
+<img width="1008" height="150" alt="image" src="https://github.com/user-attachments/assets/4b534d47-b5e2-4866-a323-38de6620f81d" />
+(Dont forget to run that start command or else your agent will not be on)
+
+And now that we have deployed our agent I can go back to the summary tab and I should see my agent there
+
+<img width="1914" height="582" alt="image" src="https://github.com/user-attachments/assets/6d6325ea-2ec3-47c2-92a8-dc4ed4dfc88a" />
+
