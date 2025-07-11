@@ -20,3 +20,22 @@ you wont have a SIEM anymore
 
 
 <img width="736" height="557" alt="image" src="https://github.com/user-attachments/assets/cc2e8c15-3c83-4900-8272-d7ad89a3292d" />
+
+Ok so now my machine is up and running and setup im going to begin running some commands to being installing wazuh, fyi I am following the quick start documentation I linked above
+
+<img width="793" height="702" alt="image" src="https://github.com/user-attachments/assets/37fb2715-7f9e-43e3-b875-d576353349b5" />
+
+First step is to upgrade the packages
+<pre>sudo apt update && apt upgrade -y</pre>
+
+Once that is complete im going to cd to the /opt directory and make a directory called Wazuh;
+
+<pre>cd /opt</pre>
+<pre>mkdir wazuh</pre>
+<pre>cd wazuh</pre>
+
+After I've done those I am going to be curling the quick install package from Wazuh by running;
+<pre>curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a</pre>
+
+<img width="947" height="730" alt="image" src="https://github.com/user-attachments/assets/33a5cf93-92b1-4c60-a126-a7d4aad62310" />
+
