@@ -72,4 +72,4 @@ And just to verify now when I go over to Wazuh and the discover tab I can see in
 <img width="1484" height="499" alt="image" src="https://github.com/user-attachments/assets/78fa1e4c-e16c-4f8e-8c0b-59d7f6fae122" />
 
 So let's move on to the N8N part.
-[Link Text](SOAR-Project-Sorta?/N8N.md)
+[Link Text](N8N.md)
