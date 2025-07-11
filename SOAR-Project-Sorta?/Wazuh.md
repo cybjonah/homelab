@@ -39,3 +39,16 @@ After I've done those I am going to be curling the quick install package from Wa
 
 <img width="947" height="730" alt="image" src="https://github.com/user-attachments/assets/33a5cf93-92b1-4c60-a126-a7d4aad62310" />
 
+After the installation is done you sh ould see something like this
+
+<img width="937" height="391" alt="image" src="https://github.com/user-attachments/assets/37f5aa16-a44e-4c35-8287-b1e538f69d1e" />
+
+So lets go connect to the dashboard and login
+
+<img width="942" height="934" alt="image" src="https://github.com/user-attachments/assets/da7b9645-daec-417c-bfce-7deddc89206b" />
+
+So now we are logged in and connected to the dashboard; Wazuh has a very senstive would be the nice word for it, out the box set of rules, I already have 152 Low alerts and the machines been on for 2 minutes;
+Hopefully down the road I can do a bit of detection engineering and setup a nice rule set;
+
+<img width="1914" height="947" alt="image" src="https://github.com/user-attachments/assets/30c4c0fc-80bb-43a2-aa33-a06d9bc64105" />
+
