@@ -19,3 +19,26 @@ chown root:wazuh /var/ossec/integrations/custom-n8n /var/ossec/integrations/cust
 chmod 750 /var/ossec/integrations/custom-n8n /var/ossec/integrations/custom-n8n.py
 </pre>
 
+After you created and added the required permissions now you have to nano into the configuration file;
+
+<pre>nano /var/ossec/etc/ossec.conf</pre>
+
+Once you are in there go down in the file and add this integration;
+
+<pre>
+  <integration>
+     <name>custom-n8n</name>
+     <hook_url>YOUR_WEBHOOK_URL</hook_url>
+     <alert_format>json</alert_format>
+ </integration>
+</pre>
+
+Make sure you save the file and back out, once you have the correct permissions on the 2 n8n files, and added the integration you should be done, restart the manager and go to your N8N and start seeing if events are flowing in.
+
+And boom!
+
+<img width="1360" height="621" alt="image" src="https://github.com/user-attachments/assets/53f72a96-4c2b-44ec-932f-8046bc5ef162" />
+
+We can see in this log it the wazuh server started and there are a bit more logs flowing in;
+
+<img width="1128" height="576" alt="image" src="https://github.com/user-attachments/assets/ec5065b7-f99d-4d60-a4ca-b7bc600be1ca" />
