@@ -42,3 +42,7 @@ And boom!
 We can see in this log it the wazuh server started and there are a bit more logs flowing in;
 
 <img width="1128" height="576" alt="image" src="https://github.com/user-attachments/assets/ec5065b7-f99d-4d60-a4ca-b7bc600be1ca" />
+
+so now are have to fine tune this a bit because we obviously don't want every alert flying in here, as well as Tune the wazuh alerts to make sure we aren't spamming wazuh/n8n, and last part create templates that validate alerts.
+
+Im going to also deploy OpenCTI since they have a OpenCTI node to try and ulitize threat intel for alert validation
