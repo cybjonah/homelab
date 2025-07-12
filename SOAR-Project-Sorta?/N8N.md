@@ -9,13 +9,13 @@ So obivously log into your N8N instance and create your workflow, our first node
 I found this github repo online; https://github.com/maikroservice/wazuh-integrations which has a N8N integreation that im going to try and see if I can install to get a idea of what data will be sent to 
 N8N before I try and use the code blocks to cypher out important info.
 
-<img width="925" height="167" alt="image" src="https://github.com/user-attachments/assets/a835acdc-5673-4f4f-869d-8db130ebd101" />
+So first step is we have to CD too, **/var/ossec/integrations**
+Once we're in that directory we have to create 2 files, custom-n8n which is the wrapper and custom-n8n.py which is the integration python file which will send the alert JSON data to n8n.
 
-<img width="654" height="138" alt="image" src="https://github.com/user-attachments/assets/8d87b02d-a0c9-4904-be71-7de6635ef482" />
+You can find these files in the github link I provided above, once you create those files make sure you change the permissions of the file;
 
-<img width="1357" height="207" alt="image" src="https://github.com/user-attachments/assets/204f37f4-c6a3-4b3a-927c-c0b464b4e67d" />
-
-<img width="983" height="516" alt="image" src="https://github.com/user-attachments/assets/c1604978-6a5b-4ed1-8372-92b275079bea" />
-
-<img width="984" height="572" alt="image" src="https://github.com/user-attachments/assets/efe3f437-a222-4c80-b785-14d92b26a646" />
+<pre>
+chown root:wazuh /var/ossec/integrations/custom-n8n /var/ossec/integrations/custom-n8n.py
+chmod 750 /var/ossec/integrations/custom-n8n /var/ossec/integrations/custom-n8n.py
+</pre>
 
