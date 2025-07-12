@@ -25,13 +25,13 @@ After you created and added the required permissions now you have to nano into t
 
 Once you are in there go down in the file and add this integration;
 
-<pre>
+
   <integration>
      <name>custom-n8n</name>
      <hook_url>YOUR_WEBHOOK_URL</hook_url>
      <alert_format>json</alert_format>
  </integration>
-</pre>
+
 
 Make sure you save the file and back out, once you have the correct permissions on the 2 n8n files, and added the integration you should be done, restart the manager and go to your N8N and start seeing if events are flowing in.
 
