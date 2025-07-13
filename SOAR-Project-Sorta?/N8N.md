@@ -41,3 +41,19 @@ We can see in this log it the wazuh server started and there are a bit more logs
 so now are have to fine tune this a bit because we obviously don't want every alert flying in here, as well as Tune the wazuh alerts to make sure we aren't spamming wazuh/n8n, and last part create templates that validate alerts.
 
 Im going to also deploy OpenCTI since they have a OpenCTI node to try and ulitize threat intel for alert validation
+
+
+## 7/13/2025
+
+So I decided to use some of my OpenAI credits to try analyze alerts that are coming through from Wazuh into N8N, here's some of the results;
+
+<img width="1850" height="913" alt="image" src="https://github.com/user-attachments/assets/14f3f4a4-9aba-4a5a-ab65-a8cea7dbfec2" />
+
+
+<img width="1919" height="731" alt="image" src="https://github.com/user-attachments/assets/4c5cc218-8909-43b5-9086-dcb050bbf28d" />
+
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/f959def8-f76d-4f13-9e88-37701f70ef0d" />
+
+
+<img width="1910" height="910" alt="image" src="https://github.com/user-attachments/assets/8b1438d5-58ad-4b96-91c2-6ebebfbea41e" />
